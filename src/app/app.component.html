@@ -1,0 +1,33 @@
+<table style='width: 100%; background-color: lightgoldenrodyellow'>
+  <tr>
+    <td width='200px'>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title"><a routerLink='example1'>Simple Tree</a></h5>
+          <p class="card-text">Simple integration to show editable tree</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title"><a routerLink='example2'>Paginated Tree</a></h5>
+          <p class="card-text">Paginated tree with custom config with pageSize set.</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title"><a routerLink='example3'>Tree Events</a></h5>
+          <p class="card-text">Changes in the tree triggers the event and prints in console.</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title"><a routerLink='example4'>Custom Tool Button</a></h5>
+          <p class="card-text">Demonstrates custom tool button for each node.</p>
+        </div>
+      </div>
+    </td>
+    <td style='background-color: white'>
+      <router-outlet></router-outlet>
+    </td>
+  </tr>
+</table>
